@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+img {
+  width: 300px;
+  height: 350px;
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.hidden {
+  display: none;
+}
